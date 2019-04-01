@@ -1,7 +1,3 @@
-import sys
-import io
-from typing import List
-
 class Solution:
     """Docstring to solution class"""
     def __init__(self):
@@ -45,6 +41,3 @@ def main():
     solution = Solution()
     ans = solution.maxProfit(arr)
     print(ans)
-
-if __name__ == '__main__':
-    main()
